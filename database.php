@@ -13,7 +13,7 @@ if (isset($_POST['data'] )){
     $option = $_POST['field'];
     echo $option;
     $valid = true;
-    $config = json_decode(file_get_contents('config.json'), true);
+    $config = json_decode(file_get_contents('../config.json'), true);
 
     $server = $config['server'];
     $username = $config['username'];

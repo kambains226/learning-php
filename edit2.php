@@ -6,7 +6,7 @@ form label {clear:left}
 </style>
 
 <?php
-$config = json_decode(file_get_contents('config.json'), true);
+$config = json_decode(file_get_contents('../config.json'), true);
 
 $server = $config['server'];
 $username = $config['username'];

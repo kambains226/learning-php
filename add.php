@@ -12,7 +12,7 @@ form label {clear:left}
 
 
 
-$config = json_decode(file_get_contents('config.json'), true);
+$config = json_decode(file_get_contents('../config.json'), true);
 
 $server = $config['server'];
 $username = $config['username'];
