@@ -1,6 +1,0 @@
-{
-    "server": "mysql",
-    "username": "student",
-    "password": "student",
-    "schema": "csy2089"
-}
